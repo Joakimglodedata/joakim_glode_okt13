@@ -1,0 +1,39 @@
+:root {
+  --prim-clr: #942389;
+  --sec-clr: #7c26ad;
+  --back-clr: #1d101c;
+  --body-font: Arial, Helvetica, sans-serif;
+  filter: hue-rotate(0deg);
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--back-clr);
+  color: var(--prim-clr);
+}
+
+.secondary-text {
+  color: var(--sec-clr);
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 0.875em;
+}
+
+button {
+  transition: 1s;
+  background: var(--sec-clr);
+}
+
+button:hover {
+  transform: scale(1.1);
+  filter: brightness(150%);
+}
