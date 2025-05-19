@@ -8,14 +8,14 @@
   /* filter: hue-rotate(0deg); */
 }
 
-
+/* Global attributes*/
 body {
   font-family: var(--body-font);
   background-color: var(--back-clr);
   color: var(--prim-clr);
+  scroll-behavior: smooth;
 }
 
-/* Standards for elements */
 h1 {
   font-size: 2.5em;
 }
