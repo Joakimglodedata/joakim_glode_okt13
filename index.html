@@ -3,7 +3,7 @@
   <!-- Head har metadata for nettleseren -->
   <head>
     <title>Heim</title>
-    <link rel="icon" type="image/x-icon" href="turtle.png" />
+    <link rel="icon" type="image/x-icon" href="images/turtle.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
@@ -14,25 +14,29 @@
   <body>
     <header>
       <nav>
+        <!-- Navigasjons elementene skal være ein ul-liste, bookmark anchors-->
         <a href="">Heim</a>
         <a href="">Om meg</a>
         <a href="">Prosjekter</a>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>Velkommen? til min side</h1>
-        <p class="secondary-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
-          neque aut alias quam, adipisci maxime.
-        </p>
-        <button>Press</button>
+      <section class="sectionHero">
+        <!-- Kort introduksjon til produktet, booking knapp-->
+        <img class="heroImg" src="#" alt="Bilde av ein matrett">
+        <div class="heroText">
+          <h1>Restaurant</h1>
+          <p>Slagord for restaurant</p>
+          <div class="heroButtons">
+            <button>Bestill bord</button>
+            <button>Bestill levering</button>
+          </div>
+        </div>
       </section>
       <section>
-        <h2>Om meg</h2>
+
       </section>
       <section>
-        <h2>Prosjekter</h2>
       </section>
     </main>
     <footer>
