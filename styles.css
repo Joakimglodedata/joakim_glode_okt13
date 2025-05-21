@@ -2,31 +2,33 @@
 :root {
   --prim-clr: #da00c4;
   --sec-clr: #7b22af;
-  --tert-clr: hsl(from var(--prim-clr) h s calc(l - 10));
+  --tert-clr: hsl(from var(--prim-clr) h s calc(l - 15));
   --back-clr: #1d101c;
   --body-font: Arial, Helvetica, sans-serif;
   /* filter: hue-rotate(0deg); */
 }
 
-/* Global attributes*/
+
 body {
   font-family: var(--body-font);
   background-color: var(--back-clr);
   color: var(--prim-clr);
-  scroll-behavior: smooth;
 }
 
+/* Standards for elements */
 h1 {
   font-size: 2.5em;
 }
 
 h2 {
-  font-size: 1.9em;
+  font-size: 1.875em;
 }
 
 p {
-  font-size: 0.8em;
-  color: var(--tert-clr); 
+  font-size: 1em;
+  color: var(--tert-clr);
+  
+  
 }
 
 button {
@@ -103,4 +105,27 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+/* menu.html */
+#pizzaCardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pizzaCard {
+  border: 1px solid black;
+}
+
+.pizzaCardImg {}
+
+.pizzaCardTitle {
+  text-transform: uppercase;
+}
+
+.pizzaCardDescription {}
+
+.pizzaCardPrize {
+  font-weight: bold;
 }
