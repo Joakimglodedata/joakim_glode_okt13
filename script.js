@@ -19,6 +19,8 @@ pizzaCardTitle.textContent = "Pizza navn"
 const pizzaCardDescription = document.createElement("p")
 pizzaCardDescription.classList.add("pizzaCardDescription")
 pizzaCardDescription.textContent = "Pizza beskrivelse"
+pizzaCardDescription.style.fontSize = Math.floor((Math.random() * 8) + 3)+"px";
+console.log(pizzaCardDescription.style.fontSize)
 
 const pizzaCardPrize = document.createElement("p")
 pizzaCardPrize.classList.add("pizzaCardPrize")
